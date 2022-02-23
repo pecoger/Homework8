@@ -12,7 +12,7 @@ public class Mammal {
     }
 
     public void setName(String name) {
-        if (!name.isEmpty()){
+        if (!name.trim().isEmpty()){
             this.name = name;
         }else {
             System.out.println("There is person without name, please enter name!");
